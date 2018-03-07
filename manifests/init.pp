@@ -45,6 +45,7 @@ class mariadbrepo (
   $os = $::operatingsystem ? {
     'RedHat' => 'rhel',
     'CentOS' => 'centos',
+    'OracleLinux' => 'centos',
     'Fedora' => 'fedora',
     'Debian' => 'debian',
     'Ubuntu' => 'ubuntu',
