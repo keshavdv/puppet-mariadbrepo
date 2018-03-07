@@ -64,7 +64,7 @@ class mariadbrepo (
   }
 
   case $::operatingsystem {
-    'RedHat','CentOS','Fedora': {
+    'RedHat','CentOS','Fedora','OracleLinux': {
       yumrepo { 'MariaDB' :
         ensure   => $ensure,
         descr    => 'MariaDB',
